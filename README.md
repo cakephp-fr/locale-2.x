@@ -33,14 +33,14 @@ minime nous aide beaucoup, alors n'hésitez pas !!
 Pour contribuer, forkez le dépôt et envoyez-nous une pull request avec les
 changements effectués.
 
-**Note** :*N'oubliez pas de mettre à jour l'avancement actuel dans le README.*
+**Note** : *N'oubliez pas de mettre à jour l'avancement actuel dans le README.*
 
 Organisation
 ------------
 
 Le projet sera divisé en différentes branches pour chaque version de CakePHP.
 
-La branche **master** contiendra la version de cakephp écrite dans la description
+La branche `master` contiendra la version de cakephp écrite dans la description
 du dépôt.
 
 Support / Suggestions / Problèmes / Discussions
