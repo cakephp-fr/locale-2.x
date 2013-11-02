@@ -1,0 +1,292 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-11-02 15:28+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/OcPostsController.php:37;69;94
+msgid "Invalid oc post"
+msgstr ""
+
+#: Controller/OcPostsController.php:52;73
+msgid "The oc post has been saved."
+msgstr ""
+
+#: Controller/OcPostsController.php:55;76
+msgid "The oc post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OcPostsController.php:98
+msgid "The oc post has been deleted."
+msgstr ""
+
+#: Controller/OcPostsController.php:100
+msgid "The oc post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:18
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:34;53;72
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:43;57
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:46;60
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:75
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:78
+msgid "User was not deleted"
+msgstr ""
+
+#: View/OcPosts/add.ctp:4
+msgid "Add Oc Post"
+msgstr ""
+
+#: View/OcPosts/add.ctp:24
+#: View/OcPosts/edit.ctp:25
+#: View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
+msgid "Submit"
+msgstr ""
+
+#: View/OcPosts/add.ctp:27
+#: View/OcPosts/edit.ctp:28
+#: View/OcPosts/index.ctp:22;66
+#: View/OcPosts/view.ctp:92
+#: View/Users/add.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/index.ctp:11;44
+#: View/Users/view.ctp:37
+msgid "Actions"
+msgstr ""
+
+#: View/OcPosts/add.ctp:30
+#: View/OcPosts/edit.ctp:32
+#: View/OcPosts/view.ctp:96
+msgid "List Oc Posts"
+msgstr ""
+
+#: View/OcPosts/edit.ctp:4
+#: View/OcPosts/view.ctp:94
+msgid "Edit Oc Post"
+msgstr ""
+
+#: View/OcPosts/edit.ctp:31
+#: View/OcPosts/index.ctp:46
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:24
+msgid "Delete"
+msgstr ""
+
+#: View/OcPosts/edit.ctp:31
+#: View/OcPosts/index.ctp:46
+#: View/OcPosts/view.ctp:95
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:24
+#: View/Users/view.ctp:40
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/OcPosts/index.ctp:2
+msgid "Oc Posts"
+msgstr ""
+
+#: View/OcPosts/index.ctp:44
+#: View/Users/index.ctp:22
+msgid "View"
+msgstr ""
+
+#: View/OcPosts/index.ctp:45
+#: View/Users/index.ctp:23
+msgid "Edit"
+msgstr ""
+
+#: View/OcPosts/index.ctp:54
+#: View/Users/index.ctp:32
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/OcPosts/index.ctp:59
+#: View/Users/index.ctp:37
+msgid "previous"
+msgstr ""
+
+#: View/OcPosts/index.ctp:61
+#: View/Users/index.ctp:39
+msgid "next"
+msgstr ""
+
+#: View/OcPosts/index.ctp:68
+#: View/OcPosts/view.ctp:97
+msgid "New Oc Post"
+msgstr ""
+
+#: View/OcPosts/view.ctp:2
+msgid "Oc Post"
+msgstr ""
+
+#: View/OcPosts/view.ctp:4
+msgid "IdPost"
+msgstr ""
+
+#: View/OcPosts/view.ctp:9
+msgid "IsAvailable"
+msgstr ""
+
+#: View/OcPosts/view.ctp:14
+msgid "IsConfirmed"
+msgstr ""
+
+#: View/OcPosts/view.ctp:19
+msgid "IdCategory"
+msgstr ""
+
+#: View/OcPosts/view.ctp:24
+msgid "Type"
+msgstr ""
+
+#: View/OcPosts/view.ctp:29
+msgid "Title"
+msgstr ""
+
+#: View/OcPosts/view.ctp:34
+msgid "Description"
+msgstr ""
+
+#: View/OcPosts/view.ctp:39
+msgid "Email"
+msgstr ""
+
+#: View/OcPosts/view.ctp:44
+msgid "IdLocation"
+msgstr ""
+
+#: View/OcPosts/view.ctp:49
+msgid "Place"
+msgstr ""
+
+#: View/OcPosts/view.ctp:54
+msgid "Name"
+msgstr ""
+
+#: View/OcPosts/view.ctp:59
+msgid "Price"
+msgstr ""
+
+#: View/OcPosts/view.ctp:64
+msgid "Ip"
+msgstr ""
+
+#: View/OcPosts/view.ctp:69
+msgid "InsertDate"
+msgstr ""
+
+#: View/OcPosts/view.ctp:74
+#: View/Users/view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/OcPosts/view.ctp:79
+msgid "Phone"
+msgstr ""
+
+#: View/OcPosts/view.ctp:84
+msgid "HasImages"
+msgstr ""
+
+#: View/OcPosts/view.ctp:95
+msgid "Delete Oc Post"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr ""
+
+#: View/Users/edit.ctp:4
+#: View/Users/view.ctp:39
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:46
+#: View/Users/view.ctp:42
+msgid "New User"
+msgstr ""
+
+#: View/Users/login.ctp:5
+msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Users/login.ctp:10
+msgid "Login"
+msgstr ""
+
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Users/view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: View/Users/view.ctp:19
+msgid "Role"
+msgstr ""
+
+#: View/Users/view.ctp:24
+msgid "Created"
+msgstr ""
+
+#: View/Users/view.ctp:29
+msgid "Modified"
+msgstr ""
+
+#: View/Users/view.ctp:40
+msgid "Delete User"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "A username is required"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr ""
+
