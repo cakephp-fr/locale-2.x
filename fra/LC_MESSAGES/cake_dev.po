@@ -3,17 +3,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-08-28 16:47+0200\n"
-"PO-Revision-Date: 2013-08-28 16:58+0100\n"
-"Last-Translator: \n"
+"Project-Id-Version: CakePHP 2.4.1\n"
+"POT-Creation-Date: 2013-11-02 18:47+0100\n"
+"PO-Revision-Date: 2013-11-02 19:49+0100\n"
+"Last-Translator: Rocky Road <rocky.road@rocky-shore.net>\n"
 "Language-Team: CakePHP-fr\n"
+"Language: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n==1? 0 : 1);\\n;\n"
-"X-Generator: Poedit 1.5.5\n"
-"Language: Française\n"
+"Plural-Forms: nplurals=2; plural=(n==1? 0 : 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: View/Layouts/default.ctp:20 View/Layouts/error.ctp:20
 msgid "CakePHP: the rapid development php framework"
@@ -244,44 +244,44 @@ msgstr ""
 msgid "Debug setting does not allow access to this url."
 msgstr ""
 
-#: Cache/Cache.php:158
+#: Cache/Cache.php:173
 msgid "Cache engine %s is not available."
 msgstr ""
 
-#: Cache/Cache.php:162
-msgid "Cache engines must use CacheEngine as a base class."
+#: Cache/Cache.php:177
+msgid "Cache engines must use %s as a base class."
 msgstr ""
 
-#: Cache/Cache.php:166
+#: Cache/Cache.php:181
 msgid "Cache engine %s is not properly configured."
 msgstr ""
 
-#: Cache/Cache.php:303
+#: Cache/Cache.php:318
 msgid "%s cache was unable to write '%s' to %s cache"
 msgstr ""
 
-#: Cache/Engine/FileEngine.php:308
+#: Cache/Cache.php:542
+msgid "Invalid cache group %s"
+msgstr ""
+
+#: Cache/Engine/FileEngine.php:314
 msgid "Files cannot be atomically decremented."
 msgstr ""
 
-#: Cache/Engine/FileEngine.php:320
+#: Cache/Engine/FileEngine.php:326
 msgid "Files cannot be atomically incremented."
 msgstr ""
 
-#: Cache/Engine/FileEngine.php:357
+#: Cache/Engine/FileEngine.php:363
 msgid "Could not apply permission mask \"%s\" on cache file \"%s\""
 msgstr ""
 
-#: Cache/Engine/FileEngine.php:374
+#: Cache/Engine/FileEngine.php:386
 msgid "%s is not writable"
 msgstr ""
 
-#: Cache/Engine/MemcacheEngine.php:168
-msgid "Method increment() not implemented for compressed cache in %s"
-msgstr ""
-
-#: Cache/Engine/MemcacheEngine.php:185
-msgid "Method decrement() not implemented for compressed cache in %s"
+#: Cache/Engine/MemcacheEngine.php:168;185
+msgid "Method %s not implemented for compressed cache in %s"
 msgstr ""
 
 #: Configure/IniReader.php:103 Configure/PhpReader.php:64
@@ -293,7 +293,7 @@ msgid "Could not load configuration file: %s"
 msgstr ""
 
 #: Configure/PhpReader.php:74
-msgid "No variable $config found in %s"
+msgid "No variable %s found in %s"
 msgstr ""
 
 #: Console/Command/TestShell.php:176
@@ -328,35 +328,31 @@ msgstr ""
 msgid "AclComponent adapters must implement AclInterface"
 msgstr ""
 
-#: Controller/Component/AclComponent.php:162
-msgid "AclComponent::grant() is deprecated, use allow() instead"
+#: Controller/Component/AclComponent.php:162;176
+msgid "%s is deprecated, use %s instead"
 msgstr ""
 
-#: Controller/Component/AclComponent.php:176
-msgid "AclComponent::revoke() is deprecated, use deny() instead"
-msgstr ""
-
-#: Controller/Component/AuthComponent.php:441
+#: Controller/Component/AuthComponent.php:495
 msgid "Authorization adapter \"%s\" was not found."
 msgstr ""
 
-#: Controller/Component/AuthComponent.php:444
-msgid "Authorization objects must implement an authorize method."
+#: Controller/Component/AuthComponent.php:498
+msgid "Authorization objects must implement an %s method."
 msgstr ""
 
-#: Controller/Component/AuthComponent.php:728
+#: Controller/Component/AuthComponent.php:784
 msgid "Authentication adapter \"%s\" was not found."
 msgstr ""
 
-#: Controller/Component/AuthComponent.php:731
-msgid "Authentication objects must implement an authenticate method."
+#: Controller/Component/AuthComponent.php:787
+msgid "Authentication objects must implement an %s method."
 msgstr ""
 
 #: Controller/Component/CookieComponent.php:370
 msgid "You must use cipher or rijndael for cookie encryption type"
 msgstr ""
 
-#: Controller/Component/RequestHandlerComponent.php:745
+#: Controller/Component/RequestHandlerComponent.php:754
 msgid "You must give a handler callback."
 msgstr ""
 
@@ -376,12 +372,20 @@ msgstr ""
 msgid "cycle detected when inheriting %s from %s. Path: %s"
 msgstr ""
 
+#: Controller/Component/Auth/BaseAuthenticate.php:156
+msgid "Password hasher class \"%s\" was not found."
+msgstr ""
+
+#: Controller/Component/Auth/BaseAuthenticate.php:159
+msgid "Password hasher must extend AbstractPasswordHasher class."
+msgstr ""
+
 #: Controller/Component/Auth/BaseAuthorize.php:97
 msgid "$controller needs to be an instance of Controller"
 msgstr ""
 
 #: Controller/Component/Auth/ControllerAuthorize.php:51
-msgid "$controller does not implement an isAuthorized() method."
+msgid "$controller does not implement an %s method."
 msgstr ""
 
 #: Controller/Component/Auth/CrudAuthorize.php:85
@@ -390,24 +394,24 @@ msgid ""
 "in controller \"%2$s\""
 msgstr ""
 
-#: Core/Configure.php:79
+#: Core/Configure.php:73
 msgid ""
-"Can't find application core file. Please create %score.php, and make sure it "
-"is readable by PHP."
+"Can't find application core file. Please create %s, and make sure it is "
+"readable by PHP."
 msgstr ""
 
-#: Core/Configure.php:95
+#: Core/Configure.php:93
 msgid ""
-"Can't find application bootstrap file. Please create %sbootstrap.php, and "
-"make sure it is readable by PHP."
+"Can't find application bootstrap file. Please create %s, and make sure it is "
+"readable by PHP."
 msgstr ""
 
-#: Core/Configure.php:323
+#: Core/Configure.php:340
 msgid "There is no \"%s\" adapter."
 msgstr ""
 
-#: Core/Configure.php:326
-msgid "The \"%s\" adapter, does not have a dump() method."
+#: Core/Configure.php:343
+msgid "The \"%s\" adapter, does not have a %s method."
 msgstr ""
 
 #: Event/CakeEventManager.php:105
@@ -424,24 +428,28 @@ msgid ""
 "Check your po file for correct plurals and valid Plural-Forms header."
 msgstr ""
 
-#: Log/CakeLog.php:191
+#: Log/CakeLog.php:192
 msgid "Invalid key name"
 msgstr ""
 
-#: Log/CakeLog.php:194
+#: Log/CakeLog.php:195
 msgid "Missing logger classname"
 msgstr ""
 
-#: Log/CakeLog.php:315;333;352
+#: Log/CakeLog.php:316;334;353
 msgid "Stream %s not found"
 msgstr ""
 
 #: Log/LogEngineCollection.php:46
-msgid "logger class %s does not implement a write method."
+msgid "logger class %s does not implement a %s method."
 msgstr ""
 
-#: Log/LogEngineCollection.php:69
+#: Log/LogEngineCollection.php:71
 msgid "Could not load class %s"
+msgstr ""
+
+#: Log/Engine/FileLog.php:152
+msgid "Could not apply permission mask \"%s\" on log file \"%s\""
 msgstr ""
 
 #: Model/AclNode.php:177
@@ -449,9 +457,7 @@ msgid "AclNode::node() - Couldn't find %s node identified by \"%s\""
 msgstr ""
 
 #: Model/BehaviorCollection.php:231
-msgid ""
-"BehaviorCollection::dispatchMethod() - Method %s not found in any attached "
-"behavior"
+msgid "%s - Method %s not found in any attached behavior"
 msgstr ""
 
 #: Model/CakeSchema.php:617
@@ -466,40 +472,40 @@ msgid ""
 "model without a database table, try implementing schema()"
 msgstr ""
 
-#: Model/Model.php:3323
+#: Model/Model.php:3386
 msgid ""
 "Invalid join model settings in %s. The association parameter has the wrong "
 "type, expecting a string or array, but was passed type: %s"
 msgstr ""
 
-#: Model/Permission.php:94
+#: Model/Permission.php:87
 msgid ""
-"DbAcl::check() - Failed ARO/ACO node lookup in permissions check. Node "
-"references:\n"
-"Aro: "
+"%s - Failed ARO/ACO node lookup in permissions check. Node references:\n"
+"Aro: %s\n"
+"Aco: %s"
 msgstr ""
 
-#: Model/Permission.php:99
+#: Model/Permission.php:98
 msgid ""
-"DbAcl::check() - Failed ACO node lookup in permissions check. Node "
-"references:\n"
-"Aro: "
+"%s - Failed ACO node lookup in permissions check. Node references:\n"
+"Aro: %s\n"
+"Aco: %s"
 msgstr ""
 
-#: Model/Permission.php:104
-msgid "ACO permissions key %s does not exist in DbAcl::check()"
+#: Model/Permission.php:109
+msgid "ACO permissions key %s does not exist in %s"
 msgstr ""
 
-#: Model/Permission.php:175
-msgid "DbAcl::allow() - Invalid node"
+#: Model/Permission.php:180
+msgid "%s - Invalid node"
 msgstr ""
 
-#: Model/Permission.php:193
+#: Model/Permission.php:198
 msgid "Invalid permission key \"%s\""
 msgstr ""
 
 #: Model/Behavior/AclBehavior.php:68
-msgid "Callback parentNode() not defined in %s"
+msgid "Callback %s not defined in %s"
 msgstr ""
 
 #: Model/Behavior/AclBehavior.php:85
@@ -516,23 +522,23 @@ msgstr ""
 msgid "Datasource %s for TranslateBehavior of model %s is not connected"
 msgstr ""
 
-#: Model/Behavior/TranslateBehavior.php:585
+#: Model/Behavior/TranslateBehavior.php:590
 msgid "You cannot bind a translation named \"name\"."
 msgstr ""
 
-#: Model/Behavior/TranslateBehavior.php:607
+#: Model/Behavior/TranslateBehavior.php:612
 msgid "Association %s is already bound to model %s"
 msgstr ""
 
-#: Model/Datasource/CakeSession.php:490
+#: Model/Datasource/CakeSession.php:489
 msgid "Unable to configure the session, setting %s failed."
 msgstr ""
 
-#: Model/Datasource/CakeSession.php:526
+#: Model/Datasource/CakeSession.php:523
 msgid "Could not load %s to handle the session."
 msgstr ""
 
-#: Model/Datasource/CakeSession.php:532
+#: Model/Datasource/CakeSession.php:529
 msgid ""
 "Chosen SessionHandler does not implement CakeSessionHandlerInterface it "
 "cannot be used with an engine key."
@@ -546,22 +552,22 @@ msgstr ""
 msgid "Error in Model %s"
 msgstr ""
 
-#: Model/Datasource/DboSource.php:2963
+#: Model/Datasource/DboSource.php:2965
 msgid "Invalid schema object"
 msgstr ""
 
-#: Model/Datasource/DboSource.php:3073
+#: Model/Datasource/DboSource.php:3075
 #: Model/Datasource/Database/Sqlite.php:401
 msgid "Column name or type not defined in schema"
 msgstr ""
 
-#: Model/Datasource/DboSource.php:3078
+#: Model/Datasource/DboSource.php:3080
 #: Model/Datasource/Database/Sqlite.php:406
 msgid "Column type %s does not exist"
 msgstr ""
 
-#: Model/Datasource/Database/Mysql.php:315
-#: Model/Datasource/Database/Sqlserver.php:213
+#: Model/Datasource/Database/Mysql.php:335
+#: Model/Datasource/Database/Sqlserver.php:218
 msgid "Could not describe table for %s"
 msgstr ""
 
@@ -569,15 +575,19 @@ msgstr ""
 msgid "Could not find validation handler %s for %s"
 msgstr ""
 
-#: Network/CakeRequest.php:458
+#: Network/CakeRequest.php:455
 msgid "Method %s does not exist"
 msgstr ""
 
-#: Network/CakeResponse.php:614
+#: Network/CakeResponse.php:624
 msgid "Unknown status code"
 msgstr ""
 
-#: Network/CakeResponse.php:1244
+#: Network/CakeResponse.php:668
+msgid "Invalid status code"
+msgstr ""
+
+#: Network/CakeResponse.php:1268
 msgid "The requested file %s was not found or not readable"
 msgstr ""
 
@@ -593,73 +603,77 @@ msgstr ""
 msgid "Unable to perform enableCrypto operation on CakeSocket"
 msgstr ""
 
-#: Network/Email/CakeEmail.php:356
+#: Network/Email/CakeEmail.php:364
 msgid "From requires only 1 email address."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:371
+#: Network/Email/CakeEmail.php:379
 msgid "Sender requires only 1 email address."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:386
+#: Network/Email/CakeEmail.php:394
 msgid "Reply-To requires only 1 email address."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:401
+#: Network/Email/CakeEmail.php:409
 msgid "Disposition-Notification-To requires only 1 email address."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:416
+#: Network/Email/CakeEmail.php:424
 msgid "Return-Path requires only 1 email address."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:536;550;590;604
+#: Network/Email/CakeEmail.php:558;572;612;626
 msgid "Invalid email: \"%s\""
 msgstr ""
 
-#: Network/Email/CakeEmail.php:635;650
+#: Network/Email/CakeEmail.php:657;672
 msgid "$headers should be an array."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:850
+#: Network/Email/CakeEmail.php:877
 msgid "Format not available."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:885
+#: Network/Email/CakeEmail.php:912
 msgid "Class \"%s\" not found."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:887
-msgid "The \"%s\" do not have send method."
+#: Network/Email/CakeEmail.php:914
+msgid "The \"%s\" does not have a %s method."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:908
+#: Network/Email/CakeEmail.php:935
 msgid ""
 "Invalid format for Message-ID. The text should be something like "
 "\"<uuid@server.com>\""
 msgstr ""
 
-#: Network/Email/CakeEmail.php:977
-msgid "File not specified."
+#: Network/Email/CakeEmail.php:1014
+msgid "No file or data specified."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:981
+#: Network/Email/CakeEmail.php:1017
+msgid "No filename specified."
+msgstr ""
+
+#: Network/Email/CakeEmail.php:1023
 msgid "File not found: \"%s\""
 msgstr ""
 
-#: Network/Email/CakeEmail.php:1063
+#: Network/Email/CakeEmail.php:1106
 msgid "From is not specified."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:1066
+#: Network/Email/CakeEmail.php:1109
 msgid "You need to specify at least one destination for to, cc or bcc."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:1131
+#: Network/Email/CakeEmail.php:1184
 msgid "%s not found."
 msgstr ""
 
-#: Network/Email/CakeEmail.php:1135
+#: Network/Email/CakeEmail.php:1188
 msgid "Unknown email configuration \"%s\"."
 msgstr ""
 
@@ -712,37 +726,37 @@ msgid ""
 "instead."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:245
+#: Network/Http/HttpSocket.php:246
 msgid "Invalid resource."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:405
+#: Network/Http/HttpSocket.php:406
 msgid "Class %s not found."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:590
+#: Network/Http/HttpSocket.php:604
 msgid "Unknown authentication method."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:593
-msgid "The %s do not support authentication."
+#: Network/Http/HttpSocket.php:607
+msgid "The %s does not support authentication."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:619
+#: Network/Http/HttpSocket.php:633
 msgid "Unknown authentication method for proxy."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:622
-msgid "The %s do not support proxy authentication."
+#: Network/Http/HttpSocket.php:636
+msgid "The %s does not support proxy authentication."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:874
+#: Network/Http/HttpSocket.php:888
 msgid ""
 "HttpSocket::_buildRequestLine - Passed an invalid request line string. "
 "Activate quirks mode to do this."
 msgstr ""
 
-#: Network/Http/HttpSocket.php:892
+#: Network/Http/HttpSocket.php:906
 msgid ""
 "HttpSocket::_buildRequestLine - The \"*\" asterisk character is only allowed "
 "for the following methods: %s. Activate quirks mode to work outside of "
@@ -761,11 +775,11 @@ msgstr ""
 msgid "HttpSocket::_decodeChunkedBody - Could not parse malformed chunk."
 msgstr ""
 
-#: Routing/Router.php:197
+#: Routing/Router.php:205
 msgid "Route class not found, or route class is not a subclass of CakeRoute"
 msgstr ""
 
-#: Utility/CakeNumber.php:145
+#: Utility/CakeNumber.php:165
 msgid "No unit type."
 msgstr ""
 
@@ -789,14 +803,14 @@ msgstr ""
 
 #: Utility/Debugger.php:849
 msgid ""
-"Please change the value of 'Security.salt' in app/Config/core.php to a salt "
-"value specific to your application"
+"Please change the value of %s in %s to a salt value specific to your "
+"application."
 msgstr ""
 
 #: Utility/Debugger.php:853
 msgid ""
-"Please change the value of 'Security.cipherSeed' in app/Config/core.php to a "
-"numeric (digits only) seed value specific to your application"
+"Please change the value of %s in %s to a numeric (digits only) seed value "
+"specific to your application."
 msgstr ""
 
 #: Utility/Folder.php:385;408
@@ -855,12 +869,8 @@ msgstr ""
 msgid "Invalid value, cost must be between %s and %s"
 msgstr ""
 
-#: Utility/Security.php:187
-msgid "You cannot use an empty key for Security::cipher()"
-msgstr ""
-
-#: Utility/Security.php:220
-msgid "You cannot use an empty key for Security::rijndael()"
+#: Utility/Security.php:187;220
+msgid "You cannot use an empty key for %s"
 msgstr ""
 
 #: Utility/Security.php:224
@@ -880,22 +890,22 @@ msgid ""
 msgstr ""
 
 #: Utility/Validation.php:257
-msgid "You must define the $operator parameter for Validation::comparison()"
+msgid "You must define the $operator parameter for %s"
 msgstr ""
 
 #: Utility/Validation.php:275
-msgid "You must define a regular expression for Validation::custom()"
+msgid "You must define a regular expression for %s"
 msgstr ""
 
-#: Utility/Validation.php:798
+#: Utility/Validation.php:817
 msgid "Could not find %s class, unable to complete validation."
 msgstr ""
 
-#: Utility/Validation.php:802
+#: Utility/Validation.php:821
 msgid "Method %s does not exist on %s unable to complete validation."
 msgstr ""
 
-#: Utility/Validation.php:896
+#: Utility/Validation.php:915
 msgid "Can not determine the mimetype."
 msgstr ""
 
@@ -903,7 +913,7 @@ msgstr ""
 msgid "XML cannot be read."
 msgstr ""
 
-#: Utility/Xml.php:117;195
+#: Utility/Xml.php:117;196
 msgid "Invalid input."
 msgstr ""
 
@@ -911,15 +921,15 @@ msgstr ""
 msgid "Xml cannot be read."
 msgstr ""
 
-#: Utility/Xml.php:199
+#: Utility/Xml.php:200
 msgid "The key of input must be alphanumeric"
 msgstr ""
 
-#: Utility/Xml.php:272;285
+#: Utility/Xml.php:277;290
 msgid "Invalid array"
 msgstr ""
 
-#: Utility/Xml.php:336
+#: Utility/Xml.php:341
 msgid "The input is not instance of SimpleXMLElement, DOMDocument or DOMNode."
 msgstr ""
 
@@ -927,32 +937,24 @@ msgstr ""
 msgid "Method %1$s::%2$s does not exist"
 msgstr ""
 
-#: View/View.php:421
+#: View/View.php:415
 msgid "Element Not Found: %s"
 msgstr ""
 
-#: View/View.php:723
+#: View/View.php:710
 msgid "You cannot extend an element which does not exist (%s)."
 msgstr ""
 
-#: View/View.php:739
+#: View/View.php:726
 msgid "You cannot have views extend themselves."
 msgstr ""
 
-#: View/View.php:742
+#: View/View.php:729
 msgid "You cannot have views extend in a loop."
 msgstr ""
 
-#: View/View.php:926
+#: View/View.php:912
 msgid "The \"%s\" block was left open. Blocks are not allowed to cross files."
-msgstr ""
-
-#: View/ViewBlock.php:143
-msgid "%s must be a string."
-msgstr ""
-
-#: View/ViewBlock.php:187
-msgid "Blocks can only contain strings."
 msgstr ""
 
 #: View/Elements/sql_dump.ctp:83
@@ -1000,8 +1002,8 @@ msgstr ""
 
 #: View/Errors/fatal_error.ctp:36 View/Errors/missing_action.ctp:42
 #: View/Errors/missing_behavior.ctp:39 View/Errors/missing_component.ctp:39
-#: View/Errors/missing_controller.ctp:39 View/Errors/missing_database.ctp:31
-#: View/Errors/missing_datasource.ctp:32
+#: View/Errors/missing_connection.ctp:39 View/Errors/missing_controller.ctp:39
+#: View/Errors/missing_database.ctp:31 View/Errors/missing_datasource.ctp:32
 #: View/Errors/missing_datasource_config.ctp:27
 #: View/Errors/missing_helper.ctp:39 View/Errors/missing_layout.ctp:31
 #: View/Errors/missing_plugin.ctp:43 View/Errors/missing_table.ctp:27
@@ -1045,7 +1047,7 @@ msgid "Missing Database Connection"
 msgstr ""
 
 #: View/Errors/missing_connection.ctp:23
-msgid "A Database connection using \"%s\" was missing or unable to connect. "
+msgid "A Database connection using \"%s\" was missing or unable to connect."
 msgstr ""
 
 #: View/Errors/missing_connection.ctp:27
@@ -1054,10 +1056,6 @@ msgstr ""
 
 #: View/Errors/missing_connection.ctp:34
 msgid "%s driver is NOT enabled"
-msgstr ""
-
-#: View/Errors/missing_connection.ctp:39
-msgid "If you want to customize this error message, create %s."
 msgstr ""
 
 #: View/Errors/missing_controller.ctp:22
@@ -1110,7 +1108,7 @@ msgid "The application is trying to load a file from the %s plugin"
 msgstr ""
 
 #: View/Errors/missing_plugin.ctp:27
-msgid "Make sure your plugin %s is in the "
+msgid "Make sure your plugin %s is in the %s directory and was loaded"
 msgstr ""
 
 #: View/Errors/missing_plugin.ctp:35
@@ -1119,7 +1117,8 @@ msgstr ""
 
 #: View/Errors/missing_plugin.ctp:36
 msgid ""
-"If you wish to load all plugins at once, use the following line in your "
+"If you wish to load all plugins at once, use the following line in your %s "
+"file"
 msgstr ""
 
 #: View/Errors/missing_table.ctp:20
@@ -1170,15 +1169,15 @@ msgstr ""
 msgid "Unable to write view cache file: \"%s\" for \"%s\""
 msgstr ""
 
-#: View/Helper/FormHelper.php:1578
+#: View/Helper/FormHelper.php:1579
 msgid "Missing field name for FormHelper::%s"
 msgstr ""
 
-#: View/Helper/HtmlHelper.php:1204
+#: View/Helper/HtmlHelper.php:1220
 msgid "Cannot load the configuration file. Wrong \"configFile\" configuration."
 msgstr ""
 
-#: View/Helper/HtmlHelper.php:1210
+#: View/Helper/HtmlHelper.php:1226
 msgid "Cannot load the configuration file. Unknown reader."
 msgstr ""
 
@@ -1187,7 +1186,7 @@ msgid "JsHelper:: Missing Method %s is undefined"
 msgstr ""
 
 #: View/Helper/MootoolsEngineHelper.php:311
-msgid "MootoolsEngine::drop() requires a \"drag\" option to properly function"
+msgid "%s requires a \"drag\" option to properly function"
 msgstr ""
 
 #: View/Helper/NumberHelper.php:65 View/Helper/TextHelper.php:80
@@ -1196,7 +1195,5 @@ msgid "%s could not be found"
 msgstr ""
 
 #: View/Helper/PaginatorHelper.php:99
-msgid ""
-"%s does not implement a link() method, it is incompatible with "
-"PaginatorHelper"
+msgid "%s does not implement a %s method, it is incompatible with %s"
 msgstr ""
