@@ -1,6 +1,7 @@
 .travis.yml
 build.properties
 build.xml
+*.mo
 
 # Ignore netbeans folder
 nbproject/*

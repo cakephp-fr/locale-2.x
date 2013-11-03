@@ -4,9 +4,14 @@ locale-2.x
 Ce projet a pour but de centraliser les fichiers de traduction du coeur de
 CakePHP en langue française.
 
-**Version de la branche master : (CakePHP 2.3.9)**
+**Version de la branche master : (CakePHP 2.4.1)**
 
-**Avancement actuel : 0%**
+**Avancement actuel : **
+
+  - cake : 86/86 messages traduits.
+  - cake_dev : 22/269 messages traduits.
+  - cake_console : 0/541.
+
 
 Installation
 ------------
