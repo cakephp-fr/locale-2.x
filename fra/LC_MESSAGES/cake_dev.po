@@ -16,7 +16,7 @@ msgstr ""
 
 #: View/Layouts/default.ctp:11 View/Layouts/error.ctp:11
 msgid "CakePHP: the rapid development php framework"
-msgstr "CakePHP : le framework de développement rapide php "
+msgstr "CakePHP : le framework de développement rapide php"
 
 #: View/Pages/home.ctp:17
 msgid "Release Notes for CakePHP %s."
@@ -170,8 +170,8 @@ msgid ""
 "Controller and MVC."
 msgstr ""
 "CakePHP est un framework de développement rapide pour PHP qui utilise "
-"des patrons de conception communément connus comme Enregistrement Actif, Mise "
-"en Correspondance de Données par Association,  Contrôleur Avant et MVC"
+"des patrons de conception communément connus comme Enregistrement Actif, "
+"Mise en Correspondance de Données par Association,  Contrôleur Avant et MVC."
 
 #: View/Pages/home.ctp:196
 msgid ""
@@ -201,7 +201,7 @@ msgstr "Documentation de CakePHP"
 
 #: View/Pages/home.ctp:205
 msgid "Your Rapid Development Cookbook"
-msgstr "Votre Livre de Cuisine de Développement Rapide"
+msgstr "Votre Livre de Cuisine pour le Développement Rapide"
 
 #: View/Pages/home.ctp:206
 msgid "CakePHP API"
@@ -261,7 +261,7 @@ msgstr "Le paramètre debug n'autorise par l'accès à cette url."
 
 #: Cache/Cache.php:173
 msgid "Cache engine %s is not available."
-msgstr "Moteur de cache %s n'est pas disponible."
+msgstr "Le moteur de cache %s n'est pas disponible."
 
 #: Cache/Cache.php:177
 msgid "Cache engines must use %s as a base class."
@@ -303,7 +303,7 @@ msgstr "La méthode %s n'est pas implémentée pour la cache compressée dans %s
 
 #: Configure/IniReader.php:103 Configure/PhpReader.php:64
 msgid "Cannot load configuration files with ../ in them."
-msgstr "Impossible de charger les fichier de configurations contenant ../"
+msgstr "Impossible de charger les fichiers de configurations contenant ../"
 
 #: Configure/IniReader.php:108 Configure/PhpReader.php:69
 msgid "Could not load configuration file: %s"
@@ -456,7 +456,7 @@ msgid ""
 msgstr ""
 "Traduction plurielle du formulaire introuvable pour \"%s\" dans le domaine "
 "\"%s\" de la locale \"%s\. Vérifiez votre fichier po pour les pluriels "
-"corrects et les en-têtes de formulaire valides."
+" corrects et les formes plurielles valides des en-têtes."
 
 #: Log/CakeLog.php:192
 msgid "Invalid key name"
@@ -492,7 +492,8 @@ msgstr ""
 #: Model/BehaviorCollection.php:231
 msgid "%s - Method %s not found in any attached behavior"
 msgstr ""
-"%s - Impossible de trouver la méthode %s dans aucun des comportements attachés"
+"%s - Impossible de trouver la méthode %s dans aucun des comportements "
+"attachés"
 
 #: Model/CakeSchema.php:617
 msgid ""
@@ -507,7 +508,7 @@ msgid ""
 "(Model::getColumnTypes) Unable to build model field data. If you are using a "
 "model without a database table, try implementing schema()"
 msgstr ""
-"(Model::getColumnTypes) Impossible de construire les données du champ de "
+"(Model::getColumnTypes) Impossible de construire les données de champs du "
 "modèle. Si vous utilisez un modèle sans une base de données, essayez "
 "d'implémenter schema()"
 
@@ -598,7 +599,7 @@ msgid ""
 "cannot be used with an engine key."
 msgstr ""
 "Le SessionHandler choisi n'implémente pas CakeSessionHandlerInterface. "
-"Il ne peut pas Être utilisé avec une clé du moteur."
+"Il ne peut pas être utilisé avec une clé du moteur."
 
 #: Model/Datasource/DboSource.php:257
 msgid "Selected driver is not enabled"
@@ -681,7 +682,7 @@ msgstr "Return-Path exige seulement 1 adresse courriel."
 
 #: Network/Email/CakeEmail.php:558;572;612;626
 msgid "Invalid email: \"%s\""
-msgstr "Courriel invalide: \"%s\""
+msgstr "Courriel invalide : \"%s\""
 
 #: Network/Email/CakeEmail.php:657;672
 msgid "$headers should be an array."
@@ -748,12 +749,12 @@ msgid ""
 "SMTP server did not accept the connection or trying to connect to non TLS "
 "SMTP server using TLS."
 msgstr ""
-"Le serveur SMTP n'a pas accepté la connection ou vous tentez de vous "
+"Le serveur SMTP n'a pas accepté la connexion ou vous tentez de vous "
 "connecter à un serveur SMTP non-TLS en utilisant TLS."
 
 #: Network/Email/SmtpTransport.php:128
 msgid "SMTP server did not accept the connection."
-msgstr "Le serveur SMTP n'a pas accepté la connection."
+msgstr "Le serveur SMTP n'a pas accepté la connexion."
 
 #: Network/Email/SmtpTransport.php:144
 msgid "SMTP server did not accept the username."
@@ -891,7 +892,7 @@ msgid ""
 "Please change the value of %s in %s to a numeric (digits only) seed value "
 "specific to your application."
 msgstr ""
-"Veuillez changer la valeur de %s dans %s pour une valeur de graine numérique "
+"Veuillez changer la valeur de %s dans %s pour une valeur seed numérique "
 "(chiffres seulement) spécifique à votre application."
 
 #: Utility/Folder.php:385;408
@@ -924,7 +925,7 @@ msgstr "%s n'a PAS été supprimé"
 
 #: Utility/Folder.php:653
 msgid "%s not found"
-msgstr "%s introuvable"
+msgstr "%s est introuvable"
 
 #: Utility/Folder.php:662
 msgid "%s not writable"
@@ -1110,7 +1111,7 @@ msgstr "Méthode manquante dans %s"
 
 #: View/Errors/missing_action.ctp:23
 msgid "The action %1$s is not defined in controller %2$s"
-msgstr "L'action %1$s n'est pas définie dans la contrôleur %2$s"
+msgstr "L'action %1$s n'est pas définie dans le contrôleur %2$s"
 
 #: View/Errors/missing_action.ctp:27
 msgid "Create %1$s%2$s in file: %3$s."
@@ -1136,7 +1137,7 @@ msgstr "Composant Manquant"
 
 #: View/Errors/missing_connection.ctp:20 View/Errors/missing_database.ctp:20
 msgid "Missing Database Connection"
-msgstr "Connection à la Base de Données Manquante"
+msgstr "Connexion à la Base de Données Manquante"
 
 #: View/Errors/missing_connection.ctp:23
 msgid "A Database connection using \"%s\" was missing or unable to connect."
@@ -1156,7 +1157,7 @@ msgstr "Contrôleur Manquant"
 
 #: View/Errors/missing_database.ctp:23
 msgid "Scaffold requires a database connection"
-msgstr "L'échafaud exige une connection à la base de données"
+msgstr "L'échafaud exige une connexion à la base de données"
 
 #: View/Errors/missing_database.ctp:27 View/Errors/missing_layout.ctp:27
 #: View/Errors/missing_view.ctp:27
@@ -1191,7 +1192,7 @@ msgstr "Layout Manquant"
 
 #: View/Errors/missing_layout.ctp:23
 msgid "The layout file %s can not be found or does not exist."
-msgstr "Le fichier de disposition %s est introuvable ou n'existe pas."
+msgstr "Le fichier de layout %s est introuvable ou n'existe pas."
 
 #: View/Errors/missing_plugin.ctp:20
 msgid "Missing Plugin"
@@ -1284,7 +1285,7 @@ msgstr "Impossible de charger le fichier de configuration. Lecteur inconnu."
 
 #: View/Helper/JsHelper.php:154
 msgid "JsHelper:: Missing Method %s is undefined"
-msgstr "JsHelper:: La méthode maquante %s est indéfinie"
+msgstr "JsHelper:: La méthode manquante %s est indéfinie"
 
 #: View/Helper/MootoolsEngineHelper.php:311
 msgid "%s requires a \"drag\" option to properly function"
@@ -1297,12 +1298,12 @@ msgstr "%s est introuvable"
 
 #: View/Helper/PaginatorHelper.php:99
 msgid "%s does not implement a %s method, it is incompatible with %s"
-msgstr "%s n'implémente pas uen méthode %s, c'est incompatible avec %s"
+msgstr "%s n'implémente pas une méthode %s, c'est incompatible avec %s"
 
 #~ msgid "Method decrement() not implemented for compressed cache in %s"
 #~ msgstr ""
-#~ "La Méthode decrement() n'est pas implémentée pour une cache compressée dans "
-#~ "%s"
+#~ "La Méthode decrement() n'est pas implémentée pour une cache compressée "
+#~ "dans %s"
 
 #~ msgid "This field cannot be left blank"
 #~ msgstr "Ce champs ne peut être laissé vide"
