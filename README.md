@@ -9,7 +9,7 @@ CakePHP en langue française.
 **Avancement actuel : **
 
   - cake : 86/86 messages traduits.
-  - cake_dev : 22/269 messages traduits.
+  - cake_dev : 269/269 messages traduits.
   - cake_console : 0/541.
 
 
