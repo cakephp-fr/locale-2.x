@@ -29,7 +29,7 @@ msgstr "Une erreur interne est survenue."
 
 #: Controller/Scaffold.php:130
 msgid "Scaffold :: "
-msgstr "Administration ::"
+msgstr "Échafaud ::"
 
 #: Controller/Scaffold.php:169;236;305
 msgid "Invalid %s"
@@ -49,15 +49,15 @@ msgstr "L'%1$s a été %2$s"
 
 #: Controller/Scaffold.php:257
 msgid "Please correct errors below."
-msgstr "Merci de corriger les erreurs ci-dessous."
+msgstr "Veuillez corriger les erreurs ci-dessous."
 
 #: Controller/Scaffold.php:308
 msgid "The %1$s with id: %2$s has been deleted."
-msgstr "L' %1$s d'id: %2$s a été supprimé."
+msgstr "L' %1$s d'id : %2$s a été supprimé."
 
 #: Controller/Scaffold.php:311
 msgid "There was an error deleting the %1$s with id: %2$s"
-msgstr "Une erreur est survenue lors de la suppression de %1$s avec l'id: %2$s"
+msgstr "Une erreur est survenue lors de la suppression de %1$s avec l'id : %2$s"
 
 #: Controller/Component/AuthComponent.php:431
 msgid "You are not authorized to access that location."
@@ -65,7 +65,7 @@ msgstr "Vous n'êtes pas autorisé à accéder à cette page."
 
 #: Error/ExceptionRenderer.php:212
 msgid "Not Found"
-msgstr "Non trouvé"
+msgstr "Introuvable"
 
 #: Model/Validator/CakeValidationSet.php:288
 msgid "This field cannot be left blank"
@@ -155,51 +155,51 @@ msgstr "à l'instant"
 
 #: Utility/CakeTime.php:913
 msgid "about a second ago"
-msgstr "il y a une seconde environ"
+msgstr "il y a environ une seconde"
 
 #: Utility/CakeTime.php:914
 msgid "about a minute ago"
-msgstr "il y a une minute environ"
+msgstr "il y a environ une minute"
 
 #: Utility/CakeTime.php:915
 msgid "about an hour ago"
-msgstr "il y a une heure environ"
+msgstr "il y a environ une heure"
 
 #: Utility/CakeTime.php:916
 msgid "about a day ago"
-msgstr "il y a un jour environ"
+msgstr "il y a environ un jour"
 
 #: Utility/CakeTime.php:917
 msgid "about a week ago"
-msgstr "il y a une semaine environ"
+msgstr "il y a environ une semaine"
 
 #: Utility/CakeTime.php:918
 msgid "about a year ago"
-msgstr "il y a un an environ"
+msgstr "il y a environ un an"
 
 #: Utility/CakeTime.php:927
 msgid "in about a second"
-msgstr "dans une seconde environ"
+msgstr "dans environ une seconde"
 
 #: Utility/CakeTime.php:928
 msgid "in about a minute"
-msgstr "dans une minute environ"
+msgstr "dans environ une minute"
 
 #: Utility/CakeTime.php:929
 msgid "in about an hour"
-msgstr "dans une heure environ"
+msgstr "dans environ une heure"
 
 #: Utility/CakeTime.php:930
 msgid "in about a day"
-msgstr "dans un jour environ"
+msgstr "dans environ un jour"
 
 #: Utility/CakeTime.php:931
 msgid "in about a week"
-msgstr "dans une semaine environ"
+msgstr "dans environ une semaine"
 
 #: Utility/CakeTime.php:932
 msgid "in about a year"
-msgstr "dans un an environ"
+msgstr "dans environ un an"
 
 #: Utility/CakeTime.php:954;976
 msgid "days"
@@ -337,7 +337,7 @@ msgstr "Supprimer"
 #: View/Scaffolds/form.ctp:35 View/Scaffolds/index.ctp:55
 #: View/Scaffolds/view.ctp:58;179
 msgid "Are you sure you want to delete # %s?"
-msgstr "Etes-vous sûr de vouloir supprimer # %s?"
+msgstr "Êtes-vous certain de vouloir supprimer # %s?"
 
 #: View/Scaffolds/form.ctp:38
 msgid "List"
@@ -374,7 +374,7 @@ msgstr "suivant"
 
 #: View/Scaffolds/view.ctp:21
 msgid "View %s"
-msgstr "Voir%s"
+msgstr "Voir %s"
 
 #: View/Scaffolds/view.ctp:58
 msgid "Delete %s"
